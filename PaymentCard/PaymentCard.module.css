@@ -1,0 +1,73 @@
+.payment--card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem;
+  gap: 4rem;
+  /* margin: 8rem; */
+}
+.paymentcard--left h3 {
+  font-size: 3.2rem;
+}
+.paymentcard--left {
+  margin-left: 2rem;
+}
+.payment-span {
+  display: block;
+  max-width: 64rem;
+  font-size: 2.4rem;
+  margin-top: 1.4rem;
+}
+.paymentcard--right {
+  width: 50%;
+}
+.paymentcard--right img {
+  width: 90%;
+}
+.payment--card button {
+  padding: 1.2rem;
+  width: 14rem;
+  margin-top: 2.4rem;
+  background-color: #cc9933;
+  border: none;
+  color: #e6e6e6;
+  border-radius: 12px;
+}
+@media (max-width: 58em) {
+  .payment--card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+  .paymentcard--right img {
+    width: 120%;
+  }
+}
+
+@media (max-width: 34em) {
+  .payment-span {
+    display: block;
+    max-width: 64rem;
+    font-size: 1.6rem;
+    margin-top: 1.4rem;
+    line-height: 1.1;
+  }
+  .paymentcard--left h3 {
+    font-size: 2.8rem;
+    background-image: linear-gradient(to right, #cc9933, #e6e6e6);
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    color: transparent;
+  }
+  .paymentcard--right {
+    position: relative;
+  }
+  .paymentcard--right img {
+    margin-left: -4rem;
+    width: 140%;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+
+.background {
+  background-color: #2d2f39;
+  -webkit-box-align: center;
+  /* width: 90rem; */
+  align-items: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: auto auto;
+  border-radius: 18px;
+  margin: 0 12rem;
+  padding: 8rem;
+  overflow: hidden;
+}
+.dashbaord-right h2 {
+  font-size: 3.8rem;
+}
+.dashbaord-left {
+  width: 50%;
+}
+.dashbaord-left img {
+  width: 80%;
+  margin-right: -46rem;
+  overflow: hidden;
+}
+.dashbaord-right {
+  color: white;
+}
+article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4rem;
+  row-gap: 7rem;
+  column-gap: 4rem;
+  font-size: 2.4rem;
+}
+.stats {
+  text-align: left;
+}
+.statsn {
+  font-size: 4.6rem;
+  font-family: "Alkalami", serif;
+}
+
+@media (max-width: 86em) {
+  .dashbaord-left img {
+    width: 100%;
+    margin-right: -20rem;
+    overflow: hidden;
+  }
+  .background {
+    background-color: #2d2f39;
+    -webkit-box-align: center;
+    /* width: 90rem; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto auto;
+    border-radius: 18px;
+    margin: 0 12rem;
+    padding: 4rem;
+    overflow: hidden;
+  }
+}
+@media (max-width: 69em) {
+  article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2.4rem;
+    row-gap: 4rem;
+    column-gap: 4rem;
+    font-size: 2.4rem;
+  }
+  .statsn {
+    font-size: 3.6rem;
+    font-family: "Alkalami", serif;
+  }
+  .dashbaord-left img {
+    width: 128%;
+    margin-right: -10rem;
+    overflow: hidden;
+  }
+}
+@media (max-width: 53em) {
+  .dashbaord-left img {
+    display: none;
+  }
+  article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem;
+    row-gap: 9rem;
+    column-gap: 14rem;
+    font-size: 2.4rem;
+  }
+  .background {
+    background-color: #2d2f39;
+    -webkit-box-align: center;
+    /* width: 90rem; */
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto auto;
+    border-radius: 18px;
+    margin: 0 3rem;
+    padding: 2rem;
+    overflow: hidden;
+  }
+}
+@media (max-width: 30em) {
+  article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem;
+    row-gap: 2rem;
+    column-gap: 6rem;
+    font-size: 1.8rem;
+  }
+  .statsn {
+    font-size: 2.4rem;
+    font-family: "Alkalami", serif;
+  }
+}
